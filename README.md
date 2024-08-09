@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# React To Do App
+This React-based to-do app offers a streamlined way to manage your tasks. It provides essential features for creating, editing, and deleting to-do items, ensuring you stay organized and focused.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+~ Add todo
+~ Delete todo
+~ Edit todo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# home page
 
-- Configure the top-level `parserOptions` property like this:
+![alt text](Todo-react.PNG)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# edit the task
+![alt text](edit-add.PNG)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+#  How to Use:
+Enter a new task in the provided box and press Enter.
+Remove a task by clicking the delete symbol.
+Modify a task by double-clicking on its text.
+Complete or uncomplete a task by checking or unchecking the box.
+
+
+# How to Run:
+Copy this project to your computer.
+Install necessary files by running "npm install".
+Start the app by running "npm start".
+View the app in your web browser at http://localhost:5173/.
+
+
+
+
+
+
+
